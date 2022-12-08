@@ -1,3 +1,3 @@
-import streamlit as st
+import requests
 
-st.title('Uber pickups in NYC')
+print(requests.get('localhost:8443/nifi'))
