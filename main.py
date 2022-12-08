@@ -1,3 +1,3 @@
 import requests
 
-print(requests.get('localhost:8443/nifi'))
+print(requests.get('https://localhost:8443/nifi'))
